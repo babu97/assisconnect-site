@@ -69,7 +69,7 @@ export default function Contact() {
         <div className="mt-10 text-center">
           <p className="text-white/40 text-sm mb-3">Or email us at</p>
           <a
-            href="mailto:hello@assisconnect.net"
+            href="mailto:info@assisconnect.net"
             className="inline-flex items-center gap-2 text-accent-blue hover:text-accent-blue/80 transition-colors font-medium"
           >
             <svg
@@ -85,7 +85,7 @@ export default function Contact() {
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
-            hello@assisconnect.net
+            info@assisconnect.net
           </a>
         </div>
       </div>

@@ -29,7 +29,7 @@ export default function Footer() {
               Terms of Service
             </a>
             <a
-              href="mailto:hello@assisconnect.net"
+              href="mailto:info@assisconnect.net"
               className="hover:text-white/70 transition-colors"
             >
               Contact
