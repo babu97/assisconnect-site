@@ -12,9 +12,41 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          {/* Starter */}
+          <div className="bg-bg-card rounded-2xl p-7 border border-border-subtle flex flex-col">
+            <h3 className="text-lg font-semibold">Starter</h3>
+            <div className="mt-4">
+              <span className="text-4xl font-extrabold">$10</span>
+              <span className="text-white/40 ml-1">/month</span>
+            </div>
+            <ul className="mt-6 space-y-3 text-sm text-white/60 flex-1">
+              <li className="flex items-center gap-2">
+                <Check /> Calls to 8 countries
+              </li>
+              <li className="flex items-center gap-2">
+                <Check /> Cancel anytime
+              </li>
+              <li className="flex items-center gap-2">
+                <Check /> HD voice quality
+              </li>
+              <li className="flex items-center gap-2">
+                <Check /> No contract
+              </li>
+            </ul>
+            <a
+              href="#download"
+              className="mt-7 block text-center py-3 rounded-xl font-semibold border border-border-subtle text-white/70 hover:border-accent-blue hover:text-accent-blue transition-colors"
+            >
+              Get Starter
+            </a>
+          </div>
+
           {/* Monthly */}
           <div className="bg-bg-card rounded-2xl p-7 border border-border-subtle flex flex-col">
+            <div className="inline-block self-start mb-1 px-2.5 py-0.5 rounded-full bg-accent-blue/15 text-accent-blue text-[10px] font-bold uppercase tracking-wider">
+              Popular
+            </div>
             <h3 className="text-lg font-semibold">Monthly</h3>
             <div className="mt-4">
               <span className="text-4xl font-extrabold">$20</span>
