@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#0A0E21"/>
+    </linearGradient>
+    <linearGradient id="sun3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="70%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="green3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43E97B"/>
+      <stop offset="100%" stop-color="#38F9D7"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="50%" cy="35%" r="40%">
+      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFD54F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="phoneShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#bg3)"/>
+
+  <!-- Kente border -->
+  <g opacity="0.1">
+    <rect x="48" y="48" width="416" height="416" rx="90" fill="none" stroke="#FFD54F" stroke-width="2"/>
+  </g>
+
+  <!-- Sun glow -->
+  <circle cx="256" cy="155" r="120" fill="url(#glow3)"/>
+
+  <!-- Sun -->
+  <circle cx="256" cy="155" r="55" fill="url(#sun3)"/>
+
+  <!-- Sun rays -->
+  <g stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.4">
+    <line x1="256" y1="82" x2="256" y2="65"/>
+    <line x1="199" y1="98" x2="189" y2="85"/>
+    <line x1="313" y1="98" x2="323" y2="85"/>
+    <line x1="183" y1="155" x2="166" y2="155"/>
+    <line x1="329" y1="155" x2="346" y2="155"/>
+    <line x1="199" y1="212" x2="189" y2="225"/>
+    <line x1="313" y1="212" x2="323" y2="225"/>
+  </g>
+
+  <!-- Acacia trees -->
+  <g opacity="0.12" transform="translate(95, 215)">
+    <rect x="-2" y="22" width="4" height="38" fill="white"/>
+    <ellipse cx="0" cy="12" rx="30" ry="16" fill="white"/>
+    <ellipse cx="-10" cy="20" rx="18" ry="10" fill="white"/>
+    <ellipse cx="12" cy="18" rx="20" ry="11" fill="white"/>
+  </g>
+  <g opacity="0.08" transform="translate(410, 228) scale(0.6)">
+    <rect x="-2" y="22" width="4" height="34" fill="white"/>
+    <ellipse cx="0" cy="12" rx="28" ry="15" fill="white"/>
+    <ellipse cx="10" cy="18" rx="18" ry="10" fill="white"/>
+  </g>
+
+  <!-- Horizon -->
+  <line x1="70" y1="268" x2="442" y2="268" stroke="white" stroke-width="1" opacity="0.06"/>
+
+  <!-- BIG PHONE HANDSET - main focal point -->
+  <g filter="url(#phoneShadow)" transform="translate(256, 340)">
+    <!-- Phone body - classic handset shape -->
+    <path d="
+      M-62 -65
+      C-62 -75, -54 -82, -44 -82
+      L-20 -82
+      C-14 -82, -9 -77, -9 -71
+      L-9 -42
+      C-9 -38, -12 -34, -16 -33
+      L-24 -30
+      C-30 -28, -34 -22, -34 -16
+      L-34 16
+      C-34 22, -30 28, -24 30
+      L-16 33
+      C-12 34, -9 38, -9 42
+      L-9 71
+      C-9 77, -14 82, -20 82
+      L-44 82
+      C-54 82, -62 75, -62 65
+      Z
+    " fill="white"/>
+    <path d="
+      M62 -65
+      C62 -75, 54 -82, 44 -82
+      L20 -82
+      C14 -82, 9 -77, 9 -71
+      L9 -42
+      C9 -38, 12 -34, 16 -33
+      L24 -30
+      C30 -28, 34 -22, 34 -16
+      L34 16
+      C34 22, 30 28, 24 30
+      L16 33
+      C12 34, 9 38, 9 42
+      L9 71
+      C9 77, 14 82, 20 82
+      L44 82
+      C54 82, 62 75, 62 65
+      Z
+    " fill="white"/>
+    <!-- Earpiece dots -->
+    <circle cx="-36" cy="-62" r="3" fill="#0D47A1" opacity="0.3"/>
+    <circle cx="-28" cy="-62" r="3" fill="#0D47A1" opacity="0.3"/>
+    <circle cx="-36" cy="-54" r="3" fill="#0D47A1" opacity="0.3"/>
+    <circle cx="-28" cy="-54" r="3" fill="#0D47A1" opacity="0.3"/>
+    <!-- Mouthpiece dots -->
+    <circle cx="-36" cy="54" r="3" fill="#0D47A1" opacity="0.3"/>
+    <circle cx="-28" cy="54" r="3" fill="#0D47A1" opacity="0.3"/>
+    <circle cx="-36" cy="62" r="3" fill="#0D47A1" opacity="0.3"/>
+    <circle cx="-28" cy="62" r="3" fill="#0D47A1" opacity="0.3"/>
+  </g>
+
+  <!-- Signal waves coming from phone -->
+  <g transform="translate(310, 285)">
+    <path d="M0 0 C12 -8, 20 -20, 20 -35" fill="none" stroke="url(#green3)" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+    <path d="M0 8 C18 -4, 32 -22, 35 -48" fill="none" stroke="url(#green3)" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M0 16 C22 0, 42 -22, 48 -58" fill="none" stroke="url(#green3)" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Green call button circle behind phone -->
+  <circle cx="256" cy="340" r="95" fill="url(#green3)" opacity="0.08"/>
+</svg>

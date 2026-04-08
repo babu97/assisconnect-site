@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43E97B"/>
+      <stop offset="100%" stop-color="#38F9D7"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#FF9800"/>
+    </linearGradient>
+  </defs>
+
+  <!-- African shield shape -->
+  <path d="M256 24 C345 24, 450 58, 468 145 C486 232, 476 310, 444 372 C412 434, 340 478, 256 498 C172 478, 100 434, 68 372 C36 310, 26 232, 44 145 C62 58, 167 24, 256 24Z" fill="url(#bg)"/>
+
+  <!-- Inner decorative ring -->
+  <path d="M256 56 C335 56, 425 85, 442 160 C458 235, 450 305, 422 360 C394 415, 330 452, 256 470 C182 452, 118 415, 90 360 C62 305, 54 235, 70 160 C87 85, 177 56, 256 56Z" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2.5" stroke-dasharray="8 6"/>
+
+  <!-- African continent subtle watermark -->
+  <g opacity="0.06" transform="translate(185, 100) scale(0.5)">
+    <path d="M160 20 C175 15, 190 10, 210 15 C230 20, 245 10, 260 5 C275 0, 290 5, 295 20 C300 35, 310 45, 305 65 C300 85, 310 100, 315 120 C320 140, 310 155, 300 170 C290 185, 295 205, 290 225 C285 245, 270 260, 260 280 C250 300, 260 320, 255 340 C250 360, 235 380, 220 390 C205 400, 190 395, 180 380 C170 365, 155 360, 140 345 C125 330, 115 310, 110 290 C105 270, 95 255, 90 235 C85 215, 80 195, 85 175 C90 155, 100 140, 105 120 C110 100, 115 80, 125 65 C135 50, 145 35, 160 20Z" fill="white"/>
+  </g>
+
+  <!-- Signal waves -->
+  <path d="M160 135 C185 95, 220 75, 256 75 C292 75, 327 95, 352 135" fill="none" stroke="url(#wave)" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+  <path d="M185 155 C200 125, 228 110, 256 110 C284 110, 312 125, 327 155" fill="none" stroke="url(#wave)" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+  <path d="M210 175 C220 155, 238 145, 256 145 C274 145, 292 155, 302 175" fill="none" stroke="url(#wave)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Phone handset - centered -->
+  <g transform="translate(256, 290) rotate(-135)">
+    <rect x="-75" y="-22" width="150" height="44" rx="22" fill="white"/>
+    <rect x="-80" y="-35" width="50" height="70" rx="14" fill="white"/>
+    <rect x="30" y="-35" width="50" height="70" rx="14" fill="white"/>
+  </g>
+
+  <!-- Decorative dots - African beadwork inspired -->
+  <circle cx="256" cy="55" r="5" fill="url(#amber)"/>
+  <circle cx="280" cy="50" r="3" fill="url(#amber)" opacity="0.6"/>
+  <circle cx="232" cy="50" r="3" fill="url(#amber)" opacity="0.6"/>
+  <circle cx="304" cy="52" r="2.5" fill="url(#amber)" opacity="0.4"/>
+  <circle cx="208" cy="52" r="2.5" fill="url(#amber)" opacity="0.4"/>
+
+  <!-- Bottom accent diamond -->
+  <g transform="translate(256, 438) rotate(45)">
+    <rect x="-7" y="-7" width="14" height="14" rx="3" fill="url(#amber)"/>
+  </g>
+</svg>

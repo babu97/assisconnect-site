@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="callGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43E97B"/>
+      <stop offset="100%" stop-color="#38F9D7"/>
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9800" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F57C00" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- African shield shape - background -->
+  <path d="M256 28 C340 28, 440 60, 460 140 C480 220, 470 300, 440 360 C410 420, 340 470, 256 492 C172 470, 102 420, 72 360 C42 300, 32 220, 52 140 C72 60, 172 28, 256 28Z" fill="url(#bg)"/>
+
+  <!-- Inner shield border - African pattern inspired -->
+  <path d="M256 52 C330 52, 420 80, 438 152 C456 224, 446 296, 420 348 C394 400, 330 444, 256 466 C182 444, 118 400, 92 348 C66 296, 56 224, 74 152 C92 80, 182 52, 256 52Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+
+  <!-- Decorative African-inspired geometric border dots -->
+  <!-- Top -->
+  <circle cx="256" cy="62" r="5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="290" cy="58" r="3.5" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="222" cy="58" r="3.5" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="324" cy="62" r="3" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="188" cy="62" r="3" fill="rgba(255,255,255,0.15)"/>
+
+  <!-- African continent silhouette (simplified, subtle watermark) -->
+  <g opacity="0.08" transform="translate(170, 80) scale(0.55)">
+    <path d="M160 20 C175 15, 190 10, 210 15 C230 20, 245 10, 260 5 C275 0, 290 5, 295 20 C300 35, 310 45, 305 65 C300 85, 310 100, 315 120 C320 140, 310 155, 300 170 C290 185, 295 205, 290 225 C285 245, 270 260, 260 280 C250 300, 260 320, 255 340 C250 360, 235 380, 220 390 C205 400, 190 395, 180 380 C170 365, 155 360, 140 345 C125 330, 115 310, 110 290 C105 270, 95 255, 90 235 C85 215, 80 195, 85 175 C90 155, 100 140, 105 120 C110 100, 115 80, 125 65 C135 50, 145 35, 160 20Z" fill="white"/>
+  </g>
+
+  <!-- Phone icon - main element -->
+  <g transform="translate(256, 230)">
+    <!-- Outer ring - signal waves -->
+    <path d="M-85 -55 C-75 -80, -45 -100, 0 -100 C45 -100, 75 -80, 85 -55" fill="none" stroke="url(#callGrad)" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    <path d="M-60 -45 C-50 -65, -30 -78, 0 -78 C30 -78, 50 -65, 60 -45" fill="none" stroke="url(#callGrad)" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-35 -35 C-28 -50, -15 -58, 0 -58 C15 -58, 28 -50, 35 -35" fill="none" stroke="url(#callGrad)" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- Phone handset -->
+    <g transform="rotate(-30)">
+      <path d="M-52 -28 C-52 -38, -44 -46, -34 -46 L-18 -46 C-14 -46, -10 -42, -10 -38 L-10 -12 C-10 -8, -14 -4, -18 -4 L-22 -4 C-26 -4, -30 0, -30 4 L-30 32 C-30 36, -26 40, -22 40 L-18 40 C-14 40, -10 44, -10 48 L-10 74 C-10 78, -14 82, -18 82 L-34 82 C-44 82, -52 74, -52 64Z" fill="white"/>
+      <path d="M52 -28 C52 -38, 44 -46, 34 -46 L18 -46 C14 -46, 10 -42, 10 -38 L10 -12 C10 -8, 14 -4, 18 -4 L22 -4 C26 -4, 30 0, 30 4 L30 32 C30 36, 26 40, 22 40 L18 40 C14 40, 10 44, 10 48 L10 74 C10 78, 14 82, 18 82 L34 82 C44 82, 52 74, 52 64Z" fill="white"/>
+    </g>
+  </g>
+
+  <!-- Small orange diamond accents - African jewelry inspired -->
+  <g transform="translate(256, 420)">
+    <rect x="-6" y="-6" width="12" height="12" rx="2" transform="rotate(45)" fill="url(#accentGlow)"/>
+  </g>
+  <g transform="translate(120, 200)">
+    <rect x="-4" y="-4" width="8" height="8" rx="1.5" transform="rotate(45)" fill="url(#accentGlow)" opacity="0.6"/>
+  </g>
+  <g transform="translate(392, 200)">
+    <rect x="-4" y="-4" width="8" height="8" rx="1.5" transform="rotate(45)" fill="url(#accentGlow)" opacity="0.6"/>
+  </g>
+
+  <!-- "PIGA HOME" text arc at bottom -->
+  <text x="256" y="450" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="800" letter-spacing="8">PIGA HOME</text>
+</svg>

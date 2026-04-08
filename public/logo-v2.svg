@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="50%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0A0E21"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="60%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43E97B"/>
+      <stop offset="100%" stop-color="#38F9D7"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFD54F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#bgGrad)"/>
+
+  <!-- Kente-inspired border pattern -->
+  <g opacity="0.12">
+    <line x1="60" y1="60" x2="60" y2="452" stroke="#FFD54F" stroke-width="3"/>
+    <line x1="452" y1="60" x2="452" y2="452" stroke="#FFD54F" stroke-width="3"/>
+    <line x1="60" y1="60" x2="452" y2="60" stroke="#FFD54F" stroke-width="3"/>
+    <line x1="60" y1="452" x2="452" y2="452" stroke="#FFD54F" stroke-width="3"/>
+    <!-- Corner crosses -->
+    <line x1="50" y1="80" x2="70" y2="80" stroke="#43E97B" stroke-width="2"/>
+    <line x1="60" y1="70" x2="60" y2="90" stroke="#43E97B" stroke-width="2"/>
+    <line x1="442" y1="80" x2="462" y2="80" stroke="#43E97B" stroke-width="2"/>
+    <line x1="452" y1="70" x2="452" y2="90" stroke="#43E97B" stroke-width="2"/>
+    <line x1="50" y1="432" x2="70" y2="432" stroke="#43E97B" stroke-width="2"/>
+    <line x1="60" y1="422" x2="60" y2="442" stroke="#43E97B" stroke-width="2"/>
+    <line x1="442" y1="432" x2="462" y2="432" stroke="#43E97B" stroke-width="2"/>
+    <line x1="452" y1="422" x2="452" y2="442" stroke="#43E97B" stroke-width="2"/>
+  </g>
+
+  <!-- African sunset/horizon -->
+  <g>
+    <!-- Sun glow -->
+    <circle cx="256" cy="185" r="100" fill="url(#sunGlow)"/>
+    <!-- Sun -->
+    <circle cx="256" cy="185" r="52" fill="url(#sunGrad)"/>
+    <!-- Sun rays -->
+    <g stroke="#FFD54F" stroke-width="3" stroke-linecap="round" opacity="0.5">
+      <line x1="256" y1="118" x2="256" y2="105"/>
+      <line x1="256" y1="252" x2="256" y2="265"/>
+      <line x1="189" y1="185" x2="176" y2="185"/>
+      <line x1="323" y1="185" x2="336" y2="185"/>
+      <line x1="208" y1="137" x2="199" y2="128"/>
+      <line x1="304" y1="137" x2="313" y2="128"/>
+      <line x1="208" y1="233" x2="199" y2="242"/>
+      <line x1="304" y1="233" x2="313" y2="242"/>
+    </g>
+  </g>
+
+  <!-- Acacia tree silhouette - left -->
+  <g opacity="0.2" transform="translate(105, 210)">
+    <rect x="-3" y="30" width="6" height="50" fill="white"/>
+    <ellipse cx="0" cy="18" rx="40" ry="22" fill="white"/>
+    <ellipse cx="-15" cy="28" rx="25" ry="14" fill="white"/>
+    <ellipse cx="18" cy="26" rx="28" ry="16" fill="white"/>
+  </g>
+
+  <!-- Acacia tree silhouette - right -->
+  <g opacity="0.15" transform="translate(400, 225) scale(0.7)">
+    <rect x="-3" y="30" width="6" height="45" fill="white"/>
+    <ellipse cx="0" cy="18" rx="38" ry="20" fill="white"/>
+    <ellipse cx="-12" cy="26" rx="22" ry="12" fill="white"/>
+    <ellipse cx="15" cy="24" rx="24" ry="14" fill="white"/>
+  </g>
+
+  <!-- Phone icon in the sun -->
+  <g transform="translate(256, 182)">
+    <path d="M-16 -20 C-16 -22, -14 -24, -12 -24 L-6 -24 C-5 -24, -4 -23, -4 -22 L-4 -10 C-4 -9, -5 -8, -6 -8 L-8 -8 C-9 -8, -10 -7, -10 -6 L-10 6 C-10 7, -9 8, -8 8 L-6 8 C-5 8, -4 9, -4 10 L-4 22 C-4 23, -5 24, -6 24 L-12 24 C-14 24, -16 22, -16 20Z" fill="#0D47A1"/>
+    <path d="M16 -20 C16 -22, 14 -24, 12 -24 L6 -24 C5 -24, 4 -23, 4 -22 L4 -10 C4 -9, 5 -8, 6 -8 L8 -8 C9 -8, 10 -7, 10 -6 L10 6 C10 7, 9 8, 8 8 L6 8 C5 8, 4 9, 4 10 L4 22 C4 23, 5 24, 6 24 L12 24 C14 24, 16 22, 16 20Z" fill="#0D47A1"/>
+  </g>
+
+  <!-- Connection arcs above phone -->
+  <g transform="translate(256, 150)">
+    <path d="M-22 0 C-15 -14, -8 -20, 0 -20 C8 -20, 15 -14, 22 0" fill="none" stroke="#0D47A1" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <path d="M-35 5 C-24 -16, -12 -28, 0 -28 C12 -28, 24 -16, 35 5" fill="none" stroke="#0D47A1" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- Horizon line -->
+  <line x1="80" y1="280" x2="432" y2="280" stroke="white" stroke-width="1.5" opacity="0.1"/>
+
+  <!-- Bottom section - text area -->
+  <!-- African pattern strip -->
+  <g opacity="0.25">
+    <rect x="100" y="295" width="312" height="3" rx="1.5" fill="url(#greenGrad)"/>
+    <!-- Small triangles pattern -->
+    <polygon points="130,305 137,295 144,305" fill="#43E97B" opacity="0.3"/>
+    <polygon points="160,305 167,295 174,305" fill="#FFD54F" opacity="0.3"/>
+    <polygon points="190,305 197,295 204,305" fill="#43E97B" opacity="0.3"/>
+    <polygon points="220,305 227,295 234,305" fill="#FFD54F" opacity="0.3"/>
+    <polygon points="250,305 257,295 264,305" fill="#43E97B" opacity="0.3"/>
+    <polygon points="280,305 287,295 294,305" fill="#FFD54F" opacity="0.3"/>
+    <polygon points="310,305 317,295 324,305" fill="#43E97B" opacity="0.3"/>
+    <polygon points="340,305 347,295 354,305" fill="#FFD54F" opacity="0.3"/>
+    <polygon points="370,305 377,295 384,305" fill="#43E97B" opacity="0.3"/>
+  </g>
+
+  <!-- PIGA text -->
+  <text x="256" y="365" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="800" letter-spacing="12">PIGA</text>
+
+  <!-- HOME text -->
+  <text x="256" y="415" text-anchor="middle" fill="url(#greenGrad)" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="600" letter-spacing="16">HOME</text>
+</svg>

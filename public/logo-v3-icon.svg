@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#0A0E21"/>
+    </linearGradient>
+    <linearGradient id="sun4" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="70%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="green4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43E97B"/>
+      <stop offset="100%" stop-color="#38F9D7"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="50%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFD54F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ps" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#bg4)"/>
+
+  <!-- Sun glow -->
+  <circle cx="256" cy="140" r="100" fill="url(#glow4)"/>
+  <!-- Sun -->
+  <circle cx="256" cy="140" r="45" fill="url(#sun4)"/>
+  <!-- Sun rays -->
+  <g stroke="#FFD54F" stroke-width="3.5" stroke-linecap="round" opacity="0.35">
+    <line x1="256" y1="80" x2="256" y2="66"/>
+    <line x1="206" y1="90" x2="196" y2="80"/>
+    <line x1="306" y1="90" x2="316" y2="80"/>
+    <line x1="196" y1="140" x2="182" y2="140"/>
+    <line x1="316" y1="140" x2="330" y2="140"/>
+    <line x1="206" y1="190" x2="196" y2="200"/>
+    <line x1="306" y1="190" x2="316" y2="200"/>
+  </g>
+
+  <!-- Acacia -->
+  <g opacity="0.1" transform="translate(100, 200)">
+    <rect x="-2" y="18" width="4" height="30" fill="white"/>
+    <ellipse cx="0" cy="10" rx="24" ry="13" fill="white"/>
+    <ellipse cx="10" cy="16" rx="16" ry="9" fill="white"/>
+  </g>
+  <g opacity="0.07" transform="translate(405, 210) scale(0.55)">
+    <rect x="-2" y="18" width="4" height="28" fill="white"/>
+    <ellipse cx="0" cy="10" rx="22" ry="12" fill="white"/>
+  </g>
+
+  <!-- Horizon -->
+  <line x1="70" y1="248" x2="442" y2="248" stroke="white" stroke-width="1" opacity="0.06"/>
+
+  <!-- Green circle glow behind phone -->
+  <circle cx="256" cy="355" r="105" fill="url(#green4)" opacity="0.07"/>
+  <circle cx="256" cy="355" r="75" fill="url(#green4)" opacity="0.05"/>
+
+  <!-- BIG PHONE - tilted for dynamism -->
+  <g filter="url(#ps)" transform="translate(256, 350) rotate(-20)">
+    <!-- Handset body -->
+    <rect x="-50" y="-16" width="100" height="32" rx="16" fill="white"/>
+    <!-- Earpiece -->
+    <rect x="-58" y="-30" width="38" height="60" rx="14" fill="white"/>
+    <!-- Mouthpiece -->
+    <rect x="20" y="-30" width="38" height="60" rx="14" fill="white"/>
+    <!-- Earpiece holes -->
+    <circle cx="-42" cy="-12" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="-35" cy="-12" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="-42" cy="-4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="-35" cy="-4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="-42" cy="4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="-35" cy="4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <!-- Mouthpiece holes -->
+    <circle cx="35" cy="-12" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="42" cy="-12" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="35" cy="-4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="42" cy="-4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="35" cy="4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+    <circle cx="42" cy="4" r="2.5" fill="#0D47A1" opacity="0.25"/>
+  </g>
+
+  <!-- Signal waves - big and visible -->
+  <g transform="translate(330, 290)">
+    <path d="M0 0 C10 -10, 16 -24, 16 -40" fill="none" stroke="url(#green4)" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M5 10 C20 -6, 30 -28, 32 -55" fill="none" stroke="url(#green4)" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M10 20 C28 0, 42 -26, 46 -62" fill="none" stroke="url(#green4)" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  </g>
+</svg>
