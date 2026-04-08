@@ -65,7 +65,7 @@ export default function Features() {
             <span className="text-accent-blue">Stay Connected</span>
           </h2>
           <p className="mt-3 text-white/45 max-w-xl mx-auto">
-            Piga Home gives you all the tools to call Africa affordably and
+            Piga Home gives you all the tools to call home affordably and
             effortlessly.
           </p>
         </div>

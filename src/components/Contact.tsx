@@ -2,12 +2,12 @@ const contacts = [
   {
     country: "Kenya",
     flag: "\u{1F1F0}\u{1F1EA}",
-    numbers: ["+254 719 835 4999", "+254 799 085 7947"],
+    numbers: ["+254 719 835 499"],
   },
   {
     country: "United Kingdom",
     flag: "\u{1F1EC}\u{1F1E7}",
-    numbers: ["+254 719 835 4999"],
+    numbers: ["+44 799 085 7947"],
   },
   {
     country: "Nigeria",

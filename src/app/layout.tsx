@@ -8,10 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Piga Home - Call Africa from UK & USA for Less | AssisConnect",
+  title: "Piga Home - Call Home for Less | AssisConnect",
   description:
-    "Make affordable VoIP calls to Kenya, Uganda, Tanzania, Nigeria, South Africa, Ghana, Rwanda & South Sudan. Crystal-clear calls from $15/month unlimited.",
+    "Make affordable VoIP calls to Kenya, Uganda, Tanzania, Nigeria, South Africa, Ghana, Rwanda & South Sudan. Call home from $15/month unlimited.",
   keywords: [
+    "call home",
     "call Africa",
     "VoIP",
     "cheap calls Africa",
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     "AssisConnect",
   ],
   openGraph: {
-    title: "Piga Home - Call Africa for Less",
+    title: "Piga Home - Call Home for Less",
     description:
       "Crystal-clear VoIP calls to 8 African countries. Starting at $15/month unlimited.",
     url: "https://assisconnect.net",
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Piga Home - Call Africa for Less",
+    title: "Piga Home - Call Home for Less",
     description:
       "Crystal-clear VoIP calls to 8 African countries. Starting at $15/month unlimited.",
   },

@@ -6,7 +6,7 @@ export default function CTA() {
     >
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold">
-          Start Calling Africa Today
+          Start Calling Home Today
         </h2>
         <p className="mt-4 text-white/55 text-lg max-w-lg mx-auto leading-relaxed">
           Join the growing community of diaspora families staying connected for

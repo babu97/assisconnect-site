@@ -8,12 +8,12 @@ export default function Hero() {
             Available in UK &amp; USA
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight">
-            Call Africa<br />
+            Call Home<br />
             <span className="text-accent-blue">for Less</span>
           </h1>
           <p className="mt-5 text-lg text-white/55 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            Crystal-clear VoIP calls to 8 African countries. Stay connected with
-            family and friends from just{" "}
+            Crystal-clear VoIP calls to 8 African countries. Call home and stay
+            connected with family and friends from just{" "}
             <span className="text-white font-semibold">$15/month</span>{" "}
             unlimited.
           </p>
