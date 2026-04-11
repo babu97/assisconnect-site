@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0A0E21"/>
+    </linearGradient>
+    <linearGradient id="green5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43E97B"/>
+      <stop offset="100%" stop-color="#38F9D7"/>
+    </linearGradient>
+    <linearGradient id="sun5" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="70%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#bg5)"/>
+
+  <!-- Savanna scene inside the phone screen -->
+  <!-- Ground/horizon -->
+  <ellipse cx="256" cy="355" rx="180" ry="8" fill="white" opacity="0.04"/>
+
+  <!-- Acacia trees - subtle background -->
+  <g opacity="0.08">
+    <rect x="128" y="300" width="3" height="28" fill="white"/>
+    <ellipse cx="130" cy="292" rx="20" ry="11" fill="white"/>
+    <ellipse cx="120" cy="297" rx="13" ry="7" fill="white"/>
+    <ellipse cx="141" cy="296" rx="14" ry="8" fill="white"/>
+
+    <rect x="378" y="310" width="3" height="22" fill="white" />
+    <ellipse cx="380" cy="303" rx="16" ry="9" fill="white"/>
+    <ellipse cx="370" cy="307" rx="11" ry="6" fill="white"/>
+  </g>
+
+  <!-- Sun behind phone -->
+  <circle cx="256" cy="145" r="40" fill="url(#sun5)" opacity="0.7"/>
+  <!-- Sun rays -->
+  <g stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round" opacity="0.25">
+    <line x1="256" y1="92" x2="256" y2="80"/>
+    <line x1="215" y1="104" x2="208" y2="95"/>
+    <line x1="297" y1="104" x2="304" y2="95"/>
+    <line x1="203" y1="145" x2="192" y2="145"/>
+    <line x1="309" y1="145" x2="320" y2="145"/>
+    <line x1="215" y1="186" x2="208" y2="195"/>
+    <line x1="297" y1="186" x2="304" y2="195"/>
+  </g>
+
+  <!-- SMARTPHONE - main element -->
+  <g transform="translate(256, 280)">
+    <!-- Phone outer body -->
+    <rect x="-72" y="-155" width="144" height="280" rx="20" fill="#1a1a2e" stroke="white" stroke-width="3" stroke-opacity="0.2"/>
+
+    <!-- Screen -->
+    <rect x="-62" y="-140" width="124" height="250" rx="8" fill="#0f1225"/>
+
+    <!-- Notch -->
+    <rect x="-20" y="-152" width="40" height="8" rx="4" fill="#0f1225"/>
+
+    <!-- Screen content - calling UI -->
+    <!-- Contact avatar circle -->
+    <circle cx="0" cy="-85" r="28" fill="url(#green5)" opacity="0.15"/>
+    <text x="0" y="-77" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="22" font-weight="600" opacity="0.7">M</text>
+
+    <!-- Contact name -->
+    <text x="0" y="-42" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600" opacity="0.85">Mama</text>
+
+    <!-- Calling status -->
+    <text x="0" y="-24" text-anchor="middle" fill="#43E97B" font-family="Inter, sans-serif" font-size="10" font-weight="500" opacity="0.8">Calling Kenya...</text>
+
+    <!-- Call duration -->
+    <text x="0" y="-6" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="11" opacity="0.4">02:34</text>
+
+    <!-- Action buttons row -->
+    <!-- Mute -->
+    <circle cx="-35" cy="25" r="14" fill="white" opacity="0.08"/>
+    <g transform="translate(-35, 25)" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <line x1="0" y1="-5" x2="0" y2="3"/>
+      <path d="M-4 3 C-4 6, -2 8, 0 8 C2 8, 4 6, 4 3"/>
+      <line x1="0" y1="8" x2="0" y2="10"/>
+    </g>
+
+    <!-- Speaker -->
+    <circle cx="0" cy="25" r="14" fill="white" opacity="0.08"/>
+    <g transform="translate(0, 25)" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <polygon points="-4,-5 -4,5 0,5 5,8 5,-8 0,-5" fill="none"/>
+      <path d="M8 -3 C10 -1, 10 1, 8 3"/>
+    </g>
+
+    <!-- Keypad -->
+    <circle cx="35" cy="25" r="14" fill="white" opacity="0.08"/>
+    <g transform="translate(35, 25)" fill="white" opacity="0.5">
+      <circle cx="-4" cy="-4" r="1.5"/>
+      <circle cx="0" cy="-4" r="1.5"/>
+      <circle cx="4" cy="-4" r="1.5"/>
+      <circle cx="-4" cy="0" r="1.5"/>
+      <circle cx="0" cy="0" r="1.5"/>
+      <circle cx="4" cy="0" r="1.5"/>
+      <circle cx="-4" cy="4" r="1.5"/>
+      <circle cx="0" cy="4" r="1.5"/>
+      <circle cx="4" cy="4" r="1.5"/>
+    </g>
+
+    <!-- End call button -->
+    <rect x="-28" y="60" width="56" height="32" rx="16" fill="#EF4444"/>
+    <g transform="translate(0, 76) rotate(135)">
+      <rect x="-10" y="-3" width="20" height="6" rx="3" fill="white"/>
+      <rect x="-13" y="-7" width="8" height="14" rx="3" fill="white"/>
+      <rect x="5" y="-7" width="8" height="14" rx="3" fill="white"/>
+    </g>
+
+    <!-- Kenya flag indicator -->
+    <g transform="translate(42, -85)">
+      <text font-size="16">🇰🇪</text>
+    </g>
+
+    <!-- Home bar -->
+    <rect x="-20" y="102" width="40" height="4" rx="2" fill="white" opacity="0.15"/>
+  </g>
+
+  <!-- Signal waves coming from phone -->
+  <g filter="url(#glow)">
+    <path d="M340 180 C352 168, 358 152, 358 135" fill="none" stroke="url(#green5)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M348 195 C365 178, 375 155, 375 130" fill="none" stroke="url(#green5)" stroke-width="3.5" stroke-linecap="round" opacity="0.45"/>
+    <path d="M355 210 C377 188, 390 158, 390 125" fill="none" stroke="url(#green5)" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+  </g>
+</svg>

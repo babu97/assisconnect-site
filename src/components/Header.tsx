@@ -18,7 +18,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
-          <img src="/logo-v3-icon.svg" alt="Piga Home" className="w-10 h-10 rounded-lg" />
+          <img src="/logo-v5-icon.svg" alt="Piga Home" className="w-10 h-10 rounded-lg" />
           <span className="text-lg font-bold text-white tracking-tight">
             Assis<span className="text-accent-blue">Connect</span>
           </span>

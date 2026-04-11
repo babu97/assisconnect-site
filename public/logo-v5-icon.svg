@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="phoneBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D47A1"/>
+      <stop offset="100%" stop-color="#1A237E"/>
+    </linearGradient>
+    <linearGradient id="sun6" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="60%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="sky6" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FF7043" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#FFB74D" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8D6E63" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="ground6" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+    <clipPath id="innerClip">
+      <!-- The gap between the two handset halves -->
+      <rect x="190" y="68" width="132" height="376" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- LEFT handset half -->
+  <path d="
+    M148 56
+    C148 36, 162 22, 182 22
+    L222 22
+    C232 22, 240 30, 240 40
+    L240 140
+    C240 152, 232 162, 222 166
+    L206 172
+    C196 176, 190 188, 190 200
+    L190 312
+    C190 324, 196 336, 206 340
+    L222 346
+    C232 350, 240 360, 240 372
+    L240 472
+    C240 482, 232 490, 222 490
+    L182 490
+    C162 490, 148 476, 148 456
+    Z
+  " fill="url(#phoneBlue)"/>
+
+  <!-- RIGHT handset half -->
+  <path d="
+    M364 56
+    C364 36, 350 22, 330 22
+    L290 22
+    C280 22, 272 30, 272 40
+    L272 140
+    C272 152, 280 162, 290 166
+    L306 172
+    C316 176, 322 188, 322 200
+    L322 312
+    C322 324, 316 336, 306 340
+    L290 346
+    C280 350, 272 360, 272 372
+    L272 472
+    C272 482, 280 490, 290 490
+    L330 490
+    C350 490, 364 476, 364 456
+    Z
+  " fill="url(#phoneBlue)"/>
+
+  <!-- African heritage scene inside the phone gap -->
+  <g clip-path="url(#innerClip)">
+    <!-- Sunset sky -->
+    <rect x="190" y="68" width="132" height="376" fill="url(#sky6)"/>
+
+    <!-- Sun -->
+    <circle cx="256" cy="160" r="30" fill="url(#sun6)"/>
+    <!-- Sun rays -->
+    <g stroke="#FFD54F" stroke-width="2" stroke-linecap="round" opacity="0.5">
+      <line x1="256" y1="120" x2="256" y2="112"/>
+      <line x1="235" y1="139" x2="229" y2="133"/>
+      <line x1="277" y1="139" x2="283" y2="133"/>
+      <line x1="218" y1="160" x2="210" y2="160"/>
+      <line x1="294" y1="160" x2="302" y2="160"/>
+      <line x1="235" y1="181" x2="229" y2="187"/>
+      <line x1="277" y1="181" x2="283" y2="187"/>
+    </g>
+
+    <!-- Birds -->
+    <g stroke="#3E2723" stroke-width="1.5" fill="none" opacity="0.35" stroke-linecap="round">
+      <path d="M230 130 C233 126, 236 128, 239 130"/>
+      <path d="M245 122 C247 119, 249 120, 251 122"/>
+      <path d="M268 126 C270 123, 272 124, 274 126"/>
+    </g>
+
+    <!-- Ground -->
+    <rect x="190" y="280" width="132" height="164" fill="url(#ground6)"/>
+
+    <!-- Grass tufts -->
+    <g stroke="#6D4C41" stroke-width="1.5" fill="none" opacity="0.5" stroke-linecap="round">
+      <path d="M200 280 L203 268 L206 280"/>
+      <path d="M210 280 L212 272 L214 280"/>
+      <path d="M250 280 L253 270 L256 280"/>
+      <path d="M260 280 L262 274 L264 280"/>
+      <path d="M290 280 L293 267 L296 280"/>
+      <path d="M300 280 L302 273 L304 280"/>
+    </g>
+
+    <!-- Acacia tree - left -->
+    <g transform="translate(215, 240)">
+      <rect x="-2" y="10" width="4" height="30" fill="#4E342E"/>
+      <!-- Canopy -->
+      <ellipse cx="0" cy="4" rx="22" ry="10" fill="#2E7D32" opacity="0.7"/>
+      <ellipse cx="-8" cy="8" rx="14" ry="7" fill="#1B5E20" opacity="0.6"/>
+      <ellipse cx="10" cy="7" rx="16" ry="8" fill="#388E3C" opacity="0.5"/>
+    </g>
+
+    <!-- Acacia tree - right smaller -->
+    <g transform="translate(295, 248) scale(0.65)">
+      <rect x="-2" y="10" width="4" height="28" fill="#4E342E"/>
+      <ellipse cx="0" cy="4" rx="20" ry="9" fill="#2E7D32" opacity="0.6"/>
+      <ellipse cx="8" cy="7" rx="14" ry="7" fill="#388E3C" opacity="0.5"/>
+    </g>
+
+    <!-- Giraffe silhouette -->
+    <g transform="translate(260, 262)" fill="#3E2723" opacity="0.5">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="8" ry="5"/>
+      <!-- Legs -->
+      <rect x="-6" y="4" width="2" height="14" rx="1"/>
+      <rect x="-2" y="4" width="2" height="13" rx="1"/>
+      <rect x="2" y="4" width="2" height="14" rx="1"/>
+      <rect x="5" y="4" width="2" height="13" rx="1"/>
+      <!-- Neck -->
+      <rect x="-2" y="-16" width="3" height="17" rx="1.5" transform="rotate(-5, 0, -8)"/>
+      <!-- Head -->
+      <ellipse cx="-1" cy="-19" rx="3" ry="2.5"/>
+      <!-- Horns -->
+      <line x1="-2" y1="-21" x2="-3" y2="-24" stroke="#3E2723" stroke-width="1"/>
+      <line x1="1" y1="-21" x2="2" y2="-24" stroke="#3E2723" stroke-width="1"/>
+    </g>
+
+    <!-- Elephant silhouette - small -->
+    <g transform="translate(230, 300)" fill="#3E2723" opacity="0.35">
+      <ellipse cx="0" cy="0" rx="10" ry="7"/>
+      <rect x="-8" y="5" width="3" height="9" rx="1.5"/>
+      <rect x="-3" y="5" width="3" height="10" rx="1.5"/>
+      <rect x="2" y="5" width="3" height="10" rx="1.5"/>
+      <rect x="6" y="5" width="3" height="9" rx="1.5"/>
+      <!-- Head -->
+      <circle cx="-10" cy="-2" r="5"/>
+      <!-- Trunk -->
+      <path d="M-15 0 C-18 4, -17 8, -14 10" stroke="#3E2723" stroke-width="2" fill="none"/>
+      <!-- Ear -->
+      <ellipse cx="-7" cy="-4" rx="3" ry="4" fill="#3E2723" opacity="0.7"/>
+    </g>
+
+    <!-- Kente/African pattern strip at bottom -->
+    <g transform="translate(190, 400)">
+      <!-- Pattern rows -->
+      <rect x="0" y="0" width="132" height="4" fill="#FFD54F" opacity="0.6"/>
+      <rect x="0" y="6" width="132" height="4" fill="#E65100" opacity="0.5"/>
+      <rect x="0" y="12" width="132" height="4" fill="#2E7D32" opacity="0.5"/>
+      <rect x="0" y="18" width="132" height="4" fill="#FFD54F" opacity="0.6"/>
+      <!-- Vertical cross pattern -->
+      <rect x="20" y="0" width="3" height="22" fill="#0D47A1" opacity="0.3"/>
+      <rect x="42" y="0" width="3" height="22" fill="#0D47A1" opacity="0.3"/>
+      <rect x="64" y="0" width="3" height="22" fill="#0D47A1" opacity="0.3"/>
+      <rect x="86" y="0" width="3" height="22" fill="#0D47A1" opacity="0.3"/>
+      <rect x="108" y="0" width="3" height="22" fill="#0D47A1" opacity="0.3"/>
+    </g>
+
+    <!-- Maasai shield pattern - subtle -->
+    <g transform="translate(256, 350)" opacity="0.15">
+      <ellipse cx="0" cy="0" rx="18" ry="25" fill="none" stroke="#E65100" stroke-width="2"/>
+      <line x1="0" y1="-25" x2="0" y2="25" stroke="#E65100" stroke-width="1.5"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#E65100" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Earpiece details on left -->
+  <g fill="white" opacity="0.15">
+    <circle cx="194" cy="65" r="3"/>
+    <circle cx="204" cy="65" r="3"/>
+    <circle cx="214" cy="65" r="3"/>
+    <circle cx="194" cy="75" r="3"/>
+    <circle cx="204" cy="75" r="3"/>
+    <circle cx="214" cy="75" r="3"/>
+    <circle cx="194" cy="85" r="3"/>
+    <circle cx="204" cy="85" r="3"/>
+    <circle cx="214" cy="85" r="3"/>
+  </g>
+
+  <!-- Mouthpiece details on left -->
+  <g fill="white" opacity="0.15">
+    <circle cx="194" cy="430" r="3"/>
+    <circle cx="204" cy="430" r="3"/>
+    <circle cx="214" cy="430" r="3"/>
+    <circle cx="194" cy="440" r="3"/>
+    <circle cx="204" cy="440" r="3"/>
+    <circle cx="214" cy="440" r="3"/>
+    <circle cx="194" cy="450" r="3"/>
+    <circle cx="204" cy="450" r="3"/>
+    <circle cx="214" cy="450" r="3"/>
+  </g>
+
+  <!-- Earpiece details on right -->
+  <g fill="white" opacity="0.15">
+    <circle cx="298" cy="65" r="3"/>
+    <circle cx="308" cy="65" r="3"/>
+    <circle cx="318" cy="65" r="3"/>
+    <circle cx="298" cy="75" r="3"/>
+    <circle cx="308" cy="75" r="3"/>
+    <circle cx="318" cy="75" r="3"/>
+    <circle cx="298" cy="85" r="3"/>
+    <circle cx="308" cy="85" r="3"/>
+    <circle cx="318" cy="85" r="3"/>
+  </g>
+
+  <!-- Mouthpiece details on right -->
+  <g fill="white" opacity="0.15">
+    <circle cx="298" cy="430" r="3"/>
+    <circle cx="308" cy="430" r="3"/>
+    <circle cx="318" cy="430" r="3"/>
+    <circle cx="298" cy="440" r="3"/>
+    <circle cx="308" cy="440" r="3"/>
+    <circle cx="318" cy="440" r="3"/>
+    <circle cx="298" cy="450" r="3"/>
+    <circle cx="308" cy="450" r="3"/>
+    <circle cx="318" cy="450" r="3"/>
+  </g>
+</svg>

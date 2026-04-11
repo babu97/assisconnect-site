@@ -6,7 +6,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="text-center md:text-left">
             <div className="flex items-center gap-2 justify-center md:justify-start">
-              <img src="/logo-v3-icon.svg" alt="Piga Home" className="w-8 h-8 rounded-lg" />
+              <img src="/logo-v5-icon.svg" alt="Piga Home" className="w-8 h-8 rounded-lg" />
               <span className="text-sm font-bold">
                 Assis<span className="text-accent-blue">Connect</span>
               </span>
