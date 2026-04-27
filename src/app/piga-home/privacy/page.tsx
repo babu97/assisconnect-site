@@ -65,12 +65,12 @@ export default function PrivacyPage() {
           </h3>
           <ul className="ml-6 list-disc">
             <li>
-              <strong>Account information:</strong> phone number or email
-              address, full name, country of residence
+              <strong>Account information:</strong> email address, full name,
+              country of residence
             </li>
             <li>
-              <strong>Authentication:</strong> One-time passwords (OTPs) sent to
-              your phone or email; Google account information (name, email,
+              <strong>Authentication:</strong> One-time passwords (OTPs) sent
+              to your email address; Google account information (name, email,
               profile picture) if you choose &quot;Continue with Google&quot;
             </li>
             <li>
@@ -187,12 +187,13 @@ export default function PrivacyPage() {
               — authentication and push notifications.
             </li>
             <li>
-              <strong>Twilio</strong> (or equivalent SMS provider) — delivery of
-              one-time-password (OTP) text messages.
+              <strong>Email delivery provider</strong> (e.g. SendGrid / SMTP
+              service) — delivery of transactional emails such as one-time
+              passwords (OTPs) and account notifications.
             </li>
             <li>
-              <strong>Asterisk / our hosting provider</strong> — call routing
-              and infrastructure.
+              <strong>Our hosting and call-routing infrastructure</strong> —
+              servers and VoIP infrastructure used to operate the Service.
             </li>
             <li>
               <strong>Law enforcement / regulators</strong> — only when legally
